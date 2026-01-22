@@ -25,7 +25,7 @@
 
 ## Why Temporal Workflow Agent
 
-Modern applications need reliable task orchestration. You have complex workflows with multiple steps, external API calls, and failure scenarios. But when something goes wrong—timeouts, retries, partial failures—**you have no visibility into what happene**.
+Modern applications need reliable task orchestration. You have complex workflows with multiple steps, external API calls, and failure scenarios. But when something goes wrong—timeouts, retries, partial failures—**you have no visibility into what happened**.
 
 Traditional approaches fall short. Manual retry logic is error-prone. Queue systems lack orchestration. Serverless functions can't maintain state across steps.
 
