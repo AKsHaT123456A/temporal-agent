@@ -1,0 +1,30 @@
+{
+  "name": "temporal-workflow-agent",
+  "version": "1.0.0",
+  "description": "Minimal production-minded workflow agent using Temporal",
+  "scripts": {
+    "dev": "next dev",
+    "dev:all": "node scripts/dev.js",
+    "build": "next build",
+    "start": "next start",
+    "worker": "tsx worker/index.ts",
+    "dev:worker": "tsx watch worker/index.ts",
+    "temporal": "node scripts/setup-temporal.js"
+  },
+  "dependencies": {
+    "@temporalio/activity": "^1.10.1",
+    "@temporalio/client": "^1.10.1",
+    "@temporalio/worker": "^1.10.1",
+    "@temporalio/workflow": "^1.10.1",
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "tsx": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
