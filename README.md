@@ -444,6 +444,28 @@ This architecture demonstrates that **correct Temporal usage** leads to systems 
 
 ---
 
+## Production Considerations(What i would change if this were production)
+
+**Infrastructure**
+- Production Temporal cluster with proper persistence
+- Container orchestration and auto-scaling
+- TLS encryption and authentication
+
+**Resilience**
+- Circuit breakers for external services
+- Workflow versioning for safe deployments
+- External storage for large payloads
+
+**Operations**
+- Structured logging and metrics collection
+- Comprehensive monitoring and alerting
+- Database integration with connection pooling
+- Secrets management and security hardening
+
+This demo shows correct Temporal patterns. Production adds operational complexity around these patterns, but the core architecture remains sound.
+
+---
+
 ## Getting Started
 
 ### Prerequisites
